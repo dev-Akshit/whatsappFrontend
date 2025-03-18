@@ -1,0 +1,156 @@
+.headerContainer {
+    background-color: #111b21;
+    /* padding: 10px; */
+    border-bottom: 1px solid #2a3942;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(230, 224, 224);
+    padding-left: 10px;
+  }
+  
+  .headerText{
+    margin-top: 10px;
+  }
+
+  .icons {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #00a884;
+  }
+  
+  .chat{
+    height: 120px;
+    width: 180px;
+    margin-top: 31vh;
+    margin-left: 25vh;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2a3942;
+    color: #ffffff;
+    z-index: 1;
+  }
+
+.chatItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.chatItem:hover {
+  background-color: #3f4c53;
+  border-radius: 10px;
+}
+
+.headIcon {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 12px;
+    background-color: #00a884;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.menuBar {
+  margin-top: 40vh;
+  margin-left: 23vh;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #2a3942;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  gap: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menuIcon {
+  padding: 5px;
+}
+
+.menuIcon:hover {
+  background-color: #3f4c53;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+  
+  /* Search Bar */
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #1b262e;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .searchIcon {
+    color: #b1b3b5;
+    font-size: 14px;
+  }
+  
+  .searchInput {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  /* Filter Tabs */
+  .filterTabs {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .filterTabs button {
+    background-color: transparent;
+    border: none;
+    padding: 8px 12px;
+    color: #b1b3b5;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .filterTabs button:hover {
+    background-color: #2a3942;
+  }
+  
+  .activeTab {
+    background-color: #00a884 !important;
+    color: white !important;
+  }
+  
