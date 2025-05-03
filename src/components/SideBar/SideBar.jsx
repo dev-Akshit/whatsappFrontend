@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Sidebar.module.css";
+import styles from "./SideBar.module.css";
 import { BsGear } from "react-icons/bs";
 import { PiChatTextFill } from "react-icons/pi";
 import { FaRegDotCircle, FaRegUserCircle } from "react-icons/fa";
